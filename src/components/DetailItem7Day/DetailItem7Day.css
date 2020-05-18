@@ -1,0 +1,10 @@
+.one-detail{
+  border: 1px solid blue;
+  padding: 5px 25px;
+  background-color: #fff9dd;
+}
+.current-detail-icon-7day{
+  width: 50px;
+  margin-bottom: 15px;
+}
+.one-detail-temp{margin: 0;}

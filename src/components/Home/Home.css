@@ -1,0 +1,26 @@
+.home{}
+.container-home{
+  padding-top: 250px;
+}
+.home-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: #ffffffe6;
+  margin: auto;
+}
+.one-home-content{
+  margin-bottom: 60px;
+  transition: 0.5s;
+  text-align: center;
+  width: 45%;
+}
+.one-home-content img{
+  transition: 0.5s;
+}
+.one-home-content p{
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0 30px;
+}

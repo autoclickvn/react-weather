@@ -1,0 +1,38 @@
+.dropdown{
+  position: absolute;
+  right: 50px;
+  top: 160px;
+  background: white;
+  padding: 35px;
+  width: 300px;
+}
+.btn-dropdown{
+  background: #5236a9;
+  color: white;
+  width: 100%;
+}
+.dropdown-title{
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #5236a9;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.dropdown-menu{
+  width: 76%;
+  height: 450px;
+  overflow-y: scroll;
+}
+.dropdown-item{
+  padding-left: 40px;
+}
+.dropdown-item:hover{
+  background: #5236a9;
+    color: white;
+}
+.dropdown-description{
+  padding: 30px 5px 10px 5px;
+  text-align: justify;
+  font-style: italic;
+}

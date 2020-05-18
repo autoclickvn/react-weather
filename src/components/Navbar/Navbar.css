@@ -1,0 +1,63 @@
+.navbar2{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  z-index: 100;
+  width: 50px;
+  height: 245px;
+}
+.navbar-logo2{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  z-index: 100;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+.navbar-logo2:hover{
+  opacity: 1;
+}
+.navbar-content2{
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  z-index: 99;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff38;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.navbar-content2 a, .lily-bot{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: 0.65;
+}
+.navbar-content2 a:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  opacity: 1;
+}
+.show-navbar{
+  transition: 0.4s;
+  opacity: 1!important;
+  visibility: visible!important;
+}
+.rotate-navbar{
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+@media (max-width: 576px){
+  .navbar2{
+    opacity: 0;
+    visibility: hidden;
+  }
+}

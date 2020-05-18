@@ -1,0 +1,10 @@
+.container-satellite{
+  padding-top: 130px;
+}
+.satellite iframe{
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+  height: 700px;
+  margin-top: 30px;
+}

@@ -1,0 +1,36 @@
+.banner{
+  position: absolute;
+  top: 50px;
+  height: 35px;
+  width: 100%;
+}
+.banner-content{
+  width: 50%;
+  margin: 0 auto;
+  height: 100%;
+  background: #ffffffe6;
+  border-radius: 10px;
+}
+.banner-content marquee{
+  width: 80%;
+  height: 100%;
+  line-height: 35px;
+  margin: 0 auto;
+  display: block;
+}
+.banner-content p{
+  float: left;
+  height: 100%;
+  background: #1b8a47;
+  padding: 0 25px;
+  line-height: 35px;
+  color: white;
+  font-weight: 500;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.banner-current-city{
+  margin: 0 30px;
+  font-weight: 500;
+    color: #176b17;
+}
